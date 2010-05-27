@@ -1,0 +1,39 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+----------------------------------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin : 0; padding : 0; border : 0; outline : 0; font-size : 100%; vertical-align : baseline; background : transparent; }
+body { line-height : 1; }
+ol, ul { list-style-type : none; }
+blockquote, q { quotes : none; }
+blockquote:before, blockquote:after, q:before, q:after { content : ''; content : none; }
+:focus { outline : 0; }
+ins { text-decoration : none; }
+del { text-decoration : line-through; }
+table { width : 99%; margin-bottom : 1.4em; }
+tr:nth-child(even) { background-color : #000; background-color : rgba(0,0,0,.6); }
+th { border-bottom : 2px solid #2a2e18; font-weight : bold; text-align : left; }
+td { border-bottom : 1px solid #2a2e18; }
+th,td { padding : 4px 10px 4px 0; }
+tr:last-child td { border-bottom-width : 0; }
+tfoot { font-style : italic; }
+caption { background : transparent; }
+
+/* Modified from: http://code.google.com/p/blueprintcss/ 
+----------------------------------------------------------------------------------------- */
+body { font : 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1,h2,h3,h4 { font-weight : normal; }
+h1 { font-size : 3em; line-height : 1; margin-bottom : 0.5em; }
+h2 { font-size : 2em; margin-bottom : .75em; }
+h3 { font-size : 1.5em; line-height : 1; margin-bottom : 1em; }
+h4 { font-size : 1.2em; line-height : 1.25; margin-bottom : 1.25em; }
+p { margin-bottom : 1.5em; }
+ul, ol { margin : 1.5em 0; }
+ul { list-style-type : none; list-style-position : inside; }
+ol { list-style-type : decimal; list-style-position : inside; }
+abbr, acronym { border-bottom-width : 0; }
+strong { font-weight : bold; }
+em { font-style : italic; }
+
+/* Author styles
+----------------------------------------------------------------------------------------- */
